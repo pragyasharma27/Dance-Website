@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 66px;
+}
+
+#logo img{
+  height: 24px;
+    border-radius: 36px;
+    margin-right: 7px;
+}
+
+#navbar {
+  background-color: #3d3c3c;
+  padding: 13px 14px;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+  font-size: 1.2rem;
+}
+#navbar li a:hover{
+  color: rgb(67, 132, 245);
+  /* font-weight: bolder; */
+}
+
+#introSection {
+    padding-bottom: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    opacity: 0.8;
+  background: center/cover no-repeat url("/static/bg1.jpg");
+  height: 85vh;
+  background-color: rebeccapurple;
+}
+
+#introSection div.small{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#missionSection {
+  height: 326px;
+  width: 67%;
+  margin: auto;
+}
+
+#missionSection  h3{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 13px;
+ }
+
+.card{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 27%;
+  margin: 23px 29px;
+  height: 209px;
+  display: inline-block;
+}
+
+.card h2{
+  text-align: center;
+  margin: 12px;
+}
+
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img{
+  height: 131px;
+  padding: 0 14px;
+  margin: 5px 8px;
+}
+.card-img img{
+  height: inherit;
+}
+
+.card-content{
+padding: 0 10px;
+}
+
+.card-content p{
+font-size: 19px;
+}
+
+#sponsorsSection {
+  height: 300px;
+  background-color: #b26f9e4f
+}
+
+#sponsorsSection  h3{
+ font-size: 36px;
+ text-align: center;
+ padding-top: 13px;
+}
+
+#sponsors{
+  height: 188px;
+  max-width: 1000px;
+  margin: 27px auto;
+}
+
+.spImage{
+  height: 80%;
+  margin: 20px;
+  border-radius: 53px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #3d3c3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+}
